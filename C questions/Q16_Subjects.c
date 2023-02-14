@@ -4,10 +4,18 @@
 
 int main()
 {
-    float maths, science, english, hindi, bio, Total, Average, Percentage;
-    printf("The marks of Maths,Science,English,Hindi,Bio is:\n");
-    scanf("%f%f%f%f%f", &maths, &science, &english, &hindi, &bio);
-    Total = maths + science + english + hindi + bio;
+    float marks, Total, Average, Percentage;
+    printf("Enter your marks of physics:\n");
+    scanf("%f",&marks);
+    printf("Enter your marks of chemistry:\n");
+    scanf("%f",&marks);
+    printf("Enter your marks of maths:\n");
+    scanf("%f",&marks);
+    printf("Enter your marks of english:\n");
+    scanf("%f",&marks);
+    printf("Enter your marks of hindi:\n");
+    scanf("%f",&marks);
+    Total = marks+marks+marks+marks+marks;
     Average = Total / 5.0;
     Percentage = (Total / 500.0) * 100;
     printf("The Total Marks you get: %f\n", Total);
